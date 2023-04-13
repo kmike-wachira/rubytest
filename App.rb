@@ -57,13 +57,16 @@
 # max of 3
 
 def max_of_three (a,b,c)
-    if a > b && a > c
+    if a > b and a > c
         p "a is the max"
-    elsif b > a && b > c
+    elsif b > a and b > c
         p "b is the max"
-    elsif c > a && c > b
+    elsif c > a and c > b
         p "c is the max"
     end
 end
 
-max_of_three(15,4,45)
+# max_of_three(15,4,45)
+
+# ternary in ruby 
+p (1<2) ? "2 is greater than 1" : "1 is greater than 2"
