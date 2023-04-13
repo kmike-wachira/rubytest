@@ -69,4 +69,48 @@ end
 # max_of_three(15,4,45)
 
 # ternary in ruby 
-p (1<2) ? "2 is greater than 1" : "1 is greater than 2"
+# p (1<2) ? "2 is greater than 1" : "1 is greater than 2"
+
+# data types in ruby
+# hashes
+person = { "name" => "Mike Kariuki", "age" => 23 ,"height" => 1.2}
+# p person['name']
+
+# arrays 
+students = ["Muturi", "Zae" , "Kim"]
+# p students[0]
+
+
+# conditionss
+
+# case person['age']
+#     when 18
+#         puts "You are young"
+#     when 17
+#         puts "You are a teenager"
+#     else
+#         puts "You are old"
+# end
+
+# loops
+# for i in 1..10 do
+#     p i
+# end
+
+# for i in students do
+#     p i
+# end
+
+# do while loop
+# initialize i 
+i=0
+# while i < 10
+#     p i
+#     i += 1
+# end
+
+# until loop
+until i==4
+    p i
+    i += 1
+end
