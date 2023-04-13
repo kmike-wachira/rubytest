@@ -19,5 +19,6 @@ puts "my name  is #{name} and am #{age} years old with a height of #{height} cm 
 def hello(name)
   puts "hello #{name}"
 end
+# call the function
 hello(name)
 
