@@ -115,3 +115,10 @@ until i==10
     i += 1
     redo if i==9
 end
+
+=begin
+   multi
+   line 
+   comment
+
+=end 
