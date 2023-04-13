@@ -110,7 +110,8 @@ i=0
 # end
 
 # until loop
-until i==4
-    p i
+until i==10
+    p i*10
     i += 1
+    redo if i==9
 end
